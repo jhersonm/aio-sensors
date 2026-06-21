@@ -33,4 +33,4 @@ print("=== REPORTE AIO SENSORS ===")
 # Parámetros: nombre del sensor, presión en hPa, temperatura en °C
 verificar_sensor("Sensor Planta Norte", 1013.25, 25.0)
 verificar_sensor("Sensor Planta Sur",   1055.0,  85.0)
-verificar_sensor("Sensor Almacén",      1025.0,  60.0)
+verificar_sensor("Sensor Almacén",      1075.0,  60.0)
