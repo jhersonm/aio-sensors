@@ -34,3 +34,21 @@ print("=== REPORTE AIO SENSORS ===")
 verificar_sensor("Sensor Planta Norte", 1013.25, 25.0)
 verificar_sensor("Sensor Planta Sur",   1055.0,  85.0)
 verificar_sensor("Sensor Almacén",      1075.0,  60.0)
+
+#--- Sensor Planta Norte ---
+#  Presión: ✅ NORMAL (1013.25 hPa)
+#  Temperatura: ✅ NORMAL (25.0 °C)
+
+#--- Sensor Planta Sur ---
+#  Presión: 🚨 CRÍTICO (1055.0 hPa)
+#  Temperatura: 🚨 ALERTA (85.0 °C)
+
+#--- Sensor Almacén ---
+#  Presión: 🚨 CRÍTICO (1075.0 hPa)
+#  Temperatura: ✅ NORMAL (60.0 °C)
+#(venv) PS C:\aio-sensors> git add .
+#(venv) PS C:\aio-sensors> git commit -m "cambio 20 06"
+#[main 7d930d8] cambio 20 06
+# 2 files changed, 56 insertions(+), 1 deletion(-)
+# create mode 100644 dia2_clases.py
+#(venv) PS C:\aio-sensors> git push #
